@@ -3,4 +3,5 @@ theme: minima
 title: Be awesome !!!
 email: contact@northwind-traders.com
 url: https://northwind-traders.com
+baseurl: /
 description: Bookmark this to keep an eye on my project updates!
