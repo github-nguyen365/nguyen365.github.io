@@ -1,6 +1,6 @@
-# Northwind Traders
+[//]:# Northwind Traders
 
-[View my GitHub Gits](https://gist.github.com/365nguyen)
+[//]:[View my GitHub Gits](https://gist.github.com/365nguyen)
 
 
 ### Jekyll Commands
