@@ -579,6 +579,564 @@ The other actions, such as deleting repositories or creating organizations from 
 GitHub provides **two-way synchronization** between GitHub Projects and associated issues and pull requests. Any updates made to issues or pull requests will automatically be reflected in the project, and vice versa, ensuring that all information remains consistent across the platform.
 
 
+## 67 - Which of these statements about GitHub Enterprise deployment options are true? (Select two.)
+
+1. **GitHub Enterprise Server is a self-hosted platform that runs on the company's infrastructure.**
+2. **GitHub Enterprise Cloud is a set of advanced functionality on GitHub.com.**
+
+### Explanation:
+- **GitHub Enterprise Server** allows organizations to host GitHub on their own infrastructure, providing complete control over their data and environment.
+- **GitHub Enterprise Cloud** refers to the enhanced features available on the GitHub.com platform, offering advanced tools and integrations without the need for self-hosting. The other options inaccurately describe the nature of GitHub Enterprise products.
+
+
+## 68 - Why would a repository owner want to use milestones? (Choose two.)
+
+1. **To associate issues and pull requests with specific project phases**
+2. **To have an overview of how much work is left to complete a project phase**
+
+### Explanation:
+**Milestones** in GitHub are used to organize issues and pull requests into specific project phases, allowing the repository owner to associate tasks with particular goals or deadlines. Additionally, milestones provide a way to visualize progress and understand how much work remains to complete a phase of the project.
+
+## 69 - Which of these is a practice that encourages collaboration, visibility, and sharing of code among different teams within an organization? 
+
+**InnerSource**
+
+### Explanation:
+**InnerSource** is a practice that applies open source principles within an organization, encouraging collaboration, visibility, and sharing of code among different teams. It fosters a culture of contribution and knowledge sharing similar to open source communities, allowing for more effective teamwork and project development.
+
+
+## 70 - What are the different GitHub pricing plans for personal accounts? (Select two)
+
+- Business
+- Enterprise
+- Pro
+- Personal
+- Team
+- Free
+- Advanced
+
+### Answer:
+The correct answers are:
+
+1. **Pro**
+2. **Free**
+
+### Explanation:
+For personal accounts, the available GitHub pricing plans include **Pro**, which offers additional features beyond the free plan, and **Free**, which provides essential functionalities for individual users. Other plans like Business, Enterprise, Team, and Advanced are geared towards organizations rather than individual users.
+
+## 71 - How can you customize the environment that is run in GitHub Codespaces?
+
+**By creating a .devcontainer/devcontainer.json configuration file**
+
+### Explanation:
+To customize the environment in **GitHub Codespaces**, you create a `.devcontainer/devcontainer.json` configuration file in your repository. This file allows you to specify the settings, extensions, and tools that should be included in the Codespace environment. You can also use a custom Dockerfile in the `.devcontainer` directory if you need a specific base image, but the primary method for customization is through the `devcontainer.json` file.
+
+## 72 - What feature is unique to GitHub Desktop compared to github.com?
+
+**Visualize branch histories in a graphical interface**
+
+### Explanation:
+**GitHub Desktop** offers the unique feature of visualizing branch histories in a **graphical interface**, allowing users to see the relationships between branches and commits in a more intuitive way. While you can clone repositories, view insights, and create new repositories on both GitHub Desktop and github.com, the graphical visualization of branch histories is a specific functionality provided by the desktop application.
+
+
+## 73 - How can you enforce status checks passing before merging a pull request to the main branch?
+
+**By creating a branch protection rule**
+
+### Explanation:
+To enforce that status checks must pass before merging a pull request into the **main branch**, you can create a **branch protection rule**. This rule allows you to specify conditions, such as requiring that specific status checks (like tests) pass before a pull request can be merged. While GitHub Actions can be used to set up these checks, it is the branch protection rule that enforces them at the merge level.
+
+## 74 - What is CodeQL?
+
+**A code analysis tool**
+
+### Explanation:
+**CodeQL** is a code analysis tool used to identify vulnerabilities and bugs in source code by allowing developers to write queries to analyze their codebases. It enables automated security analysis, helping developers find and fix security issues in their code. CodeQL is commonly integrated into GitHub workflows to enhance code security.
+
+## 75 - Which of these definitions best describes open source software?
+
+**It's software with source code that anyone can inspect, modify, and enhance.**
+
+### Explanation:
+**Open source software** is defined as software that provides its source code to the public, allowing anyone to inspect, modify, and enhance it. This fosters collaboration and transparency, enabling users to contribute to the software's development and improvement. While many open source projects are free to use, the core definition revolves around the accessibility of the source code.
+
+
+## 76 - Which of these tools serves as an AI pair programmer that offers autocomplete-style suggestions as you code?
+
+**GitHub Copilot**
+
+### Explanation:
+**GitHub Copilot** is an AI pair programming tool that provides autocomplete-style suggestions as you write code. It uses machine learning models trained on a vast amount of code from public repositories to offer context-aware code completions and help developers write code more efficiently.
+
+## 77 - What syntax is used in GitHub Markdown to create a task list?
+
+- [ ] and - [x]
+- <task> and <done>
+- // TODO: and // DONE:
+- # TODO: and # DONE:
+
+### Answer:
+The correct answer is:
+
+**- [ ] and - [x]**
+
+### Explanation:
+In **GitHub Markdown**, task lists are created using the syntax `- [ ]` for an unchecked task and `- [x]` for a checked task. This allows users to create interactive checkboxes in issues, pull requests, and comments, making it easy to track tasks.
+
+## 78 - What are GitHub's slash commands?
+
+**It's a way to quickly insert complex Markdown into your pull request or issue comments and descriptions.**
+
+### Explanation:
+**GitHub's slash commands** are used in issues and pull requests to quickly insert predefined text or complex Markdown formatting. By typing a slash (`/`), users can access a list of available commands, making it easier to add templates, labels, or other structured content without manually formatting it.
+
+
+## 79 - What are the different forms of two-factor or multi-factor authentication supported by GitHub? (Choose five.)
+
+- Passkey
+- Time-based one-time password (TOTP)
+- Text message
+- Phone call
+- GitHub mobile
+- Email
+- Security key
+
+### Answer:
+The correct answers are:
+
+1. **Passkey**
+2. **Time-based one-time password (TOTP)**
+3. **Text message**
+4. **Phone call**
+5. **Security key**
+
+### Explanation:
+GitHub supports multiple forms of two-factor or multi-factor authentication, which enhance account security. The supported methods include:
+- **Passkey**: A secure method for authentication.
+- **Time-based one-time password (TOTP)**: A time-sensitive code generated by an authenticator app.
+- **Text message**: A code sent via SMS.
+- **Phone call**: An authentication code received through a phone call.
+- **Security key**: A physical device used for authentication, such as a USB or NFC key.
+
+**GitHub mobile** and **email** are not typically considered methods of two-factor or multi-factor authentication in this context.
+
+## 80 - What are the different deployment options for GitHub Enterprise? (Select two.)
+
+- GitHub Enterprise Free
+- GitHub Enterprise Cloud
+- GitHub Enterprise Pro
+- GitHub Enterprise Advanced
+- GitHub Enterprise Server
+- GitHub Enterprise Team
+
+### Answer:
+The correct answers are:
+
+1. **GitHub Enterprise Cloud**
+2. **GitHub Enterprise Server**
+
+### Explanation:
+The two primary deployment options for **GitHub Enterprise** are:
+- **GitHub Enterprise Cloud**: A cloud-hosted version of GitHub Enterprise that provides advanced features and functionality on GitHub.com.
+- **GitHub Enterprise Server**: A self-hosted version that allows organizations to run GitHub on their own infrastructure, providing complete control over their data and environment.
+
+Other options listed are not recognized as separate deployment options for GitHub Enterprise.
+
+
+## 81 - Which of these workflows are built-in automations in GitHub Projects? (Choose two.)
+
+1. **When pull requests in your project are merged, their status is set to Done.**
+2. **When issues or pull requests in your project are closed, their status is set to Done.**
+
+### Explanation:
+GitHub Projects include built-in automations that can automatically update the status of issues and pull requests based on their state. Specifically, when pull requests are merged or issues are closed, their status can be set to Done, helping teams track progress efficiently. The other options do not represent built-in automations in GitHub Projects.
+
+## 82 - What are draft pull requests?
+
+**Draft pull requests are pull requests that are not ready to be reviewed yet.**
+
+### Explanation:
+**Draft pull requests** are a type of pull request that indicates that the changes are not yet ready for review. This allows developers to open a pull request to signal their intention to work on it while communicating to others that it is still a work in progress. Once the author feels the pull request is ready, they can mark it as ready for review.
+
+## 83 - What are the two available options when you no longer need to use a Project?
+
+**Archive and close**
+
+### Explanation:
+When you no longer need to use a GitHub Project, you can **archive** it to preserve its state for future reference without actively using it, or **close** it to indicate that the project is no longer in progress. Archiving a project keeps it accessible while preventing further changes, whereas closing a project marks it as completed.
+
+## 84 - Your project requires appropriate hardware to run. Can you customize the amount of CPU cores that will be allocated to your GitHub Codespace environment?
+
+**Yes, you can choose an alternative machine type either when you create a codespace or at any time after you've created a codespace.**
+
+### Explanation:
+When creating a **GitHub Codespace**, you have the option to select different machine types, which allows you to customize the amount of CPU cores and memory allocated to your environment. You can also change the machine type at any time after creating the Codespace, providing flexibility based on your project's hardware requirements.
+
+
+## 85 - Which of these actions will make sure that prior to any push to the main branch, the changes have been approved by at least two people? (Choose three.)
+
+1. **Create a branch protection rule for main branch**
+2. **On the branch protection rule, require at least 2 approvals before merging a pull request**
+3. **On the branch protection rule, require a pull request before merging**
+
+### Explanation:
+To ensure that changes pushed to the main branch are approved by at least two people, you need to:
+1. **Create a branch protection rule** for the main branch, which allows you to enforce various rules.
+2. **Require at least 2 approvals** on that branch protection rule before merging any pull request.
+3. **Require a pull request** to be made before merging, ensuring that all changes are reviewed before they can be integrated into the main branch.
+
+The other options, like status checks or deployment protection rules, do not specifically address the requirement for multiple approvals before merging to the main branch.
+
+
+## 86 - Which of these statements about the differences of issues and discussions is true?
+
+**GitHub Discussions are for conversations that need to be transparent and accessible but do not need to be tracked on a project board and are not related to code, unlike GitHub Issues.**
+
+### Explanation:
+**GitHub Discussions** are designed for broader conversations that can include topics not directly related to issues or bugs, such as feature requests, ideas, or general questions. They do not require tracking on a project board. In contrast, **GitHub Issues** are specifically intended for tracking tasks, bugs, or feature requests, and are often linked to a project board for management and organization.
+
+
+## 87 - What is the GitHub Sponsors program?
+
+**It's a way to financially support the developers of the open source projects.**
+
+### Explanation:
+The **GitHub Sponsors** program allows individuals and organizations to financially support developers and maintainers of open source projects. This initiative aims to provide a sustainable funding model for contributors, enabling them to continue their work on important projects while receiving compensation for their efforts.
+
+
+## 88 - Where can you disable repository features such as issues, wikis, or projects on a repository that you own?
+
+**In the repository settings**
+
+### Explanation:
+You can disable features like **issues, wikis, or projects** for a repository that you own by going to the **repository settings**. In the settings, you will find options to enable or disable these features based on your preferences for managing the repository.
+
+
+## 89 - Who can set up billing or assign billing managers for an organization? (Select three.)
+
+1. **Owner at the organization level**
+2. **Owner at the enterprise level**
+3. **Billing managers at the organization level**
+
+### Explanation:
+Only specific roles can manage billing for an organization on GitHub. This includes:
+- **Owner at the organization level**: Has full control over organization settings, including billing.
+- **Owner at the enterprise level**: Can manage billing for all organizations within the enterprise.
+- **Billing managers at the organization level**: Designated individuals who can handle billing tasks for the organization.
+
+The other roles listed do not have the authority to set up billing or manage billing managers.
+
+
+## 90 - How does GitHub help people that want to write proper issue and pull request comments but don't know Markdown syntax?
+
+**There is a text formatting toolbar on issue and pull request comment forms which generates Markdown for you.**
+
+### Explanation:
+GitHub provides a **text formatting toolbar** in the comment sections of issues and pull requests, which helps users format their text without needing to remember Markdown syntax. This toolbar includes buttons for common formatting options like bold, italics, code blocks, and lists, making it easier for users to write clear and well-structured comments.
+
+## 91 - What are the possible GitHub account types? (Select three.)
+
+- Organization accounts
+- Enterprise accounts
+- Company accounts
+- Personal accounts
+- Shared accounts
+
+### Answer:
+The correct answers are:
+
+1. **Organization accounts**
+2. **Enterprise accounts**
+3. **Personal accounts**
+
+### Explanation:
+The possible GitHub account types include:
+- **Personal accounts**: Individual user accounts for personal use.
+- **Organization accounts**: Accounts that allow multiple users to collaborate on repositories under a single organization.
+- **Enterprise accounts**: Designed for large organizations, providing advanced features and control over multiple organization accounts.
+
+"Company accounts" and "shared accounts" are not official account types on GitHub.
+
+
+## 92 - Which of these is a common use case for GitHub Actions?
+
+**Running automated tests prior to merging a pull request**
+
+### Explanation:
+A common use case for **GitHub Actions** is to automate the process of **running tests** on your codebase before merging a pull request. This helps ensure that any new changes do not break existing functionality, allowing for continuous integration and better code quality. While GitHub Actions can also be used for other tasks, running automated tests is a widely adopted practice.
+
+
+## 93 - What is the GitHub Flow?
+
+**It refers to a branch-based workflow where developers create a branch for each new change they're working on, and then open pull requests to get their code reviewed, tested, and merged into the main branch.**
+
+### Explanation:
+**GitHub Flow** is a lightweight, branch-based workflow that allows developers to work on features or fixes in isolated branches. When the work is ready, they open a pull request to facilitate code review, testing, and merging back into the main branch. This method promotes collaboration and helps maintain a stable main branch while allowing for continuous integration of new features.
+
+## 94 - Which of these statements best describes what GitHub is?
+
+**GitHub is a platform that uses Git as its core technology and adds features that make collaboration and code management easier.**
+
+### Explanation:
+**GitHub** is a web-based platform that leverages **Git**, a distributed version control system, to facilitate collaboration, code management, and project tracking. It enhances the functionality of Git with features such as pull requests, issues, project boards, and more, making it easier for teams to work together effectively on software development projects.
+
+
+## 95 - Which of these is true regarding custom fields for items in GitHub Projects?
+
+**Custom fields enable the addition of metadata beyond the built-in options, such as target dates and iteration fields.**
+
+### Explanation:
+**Custom fields** in GitHub Projects allow users to add metadata to items beyond the default options. This includes the ability to include various types of data such as target dates, iterations, and other relevant information that can enhance project tracking and management.
+
+
+## 96 - You want to merge changes from branch feature-a into main and you are creating a pull request. Which branch should be the base branch and which branch should be the compare branch?
+
+**main is the base branch and feature-a is the compare branch.**
+
+### Explanation:
+In a pull request, the **base branch** is the branch you want to merge changes into, which in this case is `main`. The **compare branch** is the branch you are merging from, which is `feature-a`. Therefore, when creating the pull request, you set `main` as the base branch and `feature-a` as the compare branch.
+
+
+## 97 - What are pinned repositories on GitHub?
+
+**Pinned repositories are repositories that you have pinned to the top of your GitHub profile.**
+
+### Explanation:
+**Pinned repositories** on GitHub are those that users have selected to highlight on their profiles. This feature allows users to showcase specific repositories, making it easier for visitors to view and access important or favorite projects directly from their profile page.
+
+## 98 - What is/are the common GitHub pricing plan(s) for both personal and organization accounts?
+
+- Business
+- Advanced
+- Enterprise
+- Team
+- Personal
+- Pro
+- Free
+
+### Answer:
+The correct answers are:
+
+1. **Pro**
+2. **Free**
+
+### Explanation:
+Both **Pro** and **Free** plans are available for individual personal accounts as well as for organization accounts on GitHub. The **Free** plan offers basic features suitable for individuals and small teams, while the **Pro** plan provides additional features such as enhanced repository insights and advanced collaboration tools.
+
+## 99 - Which of the GitHub features best serves as a simple way to share small code snippets with others?
+
+**Gists**
+
+### Explanation:
+**Gists** are a feature of GitHub that allows users to share small code snippets, notes, or any other text files easily. Gists can be public or secret, making them a convenient way to collaborate on or share code snippets without needing a full repository.
+
+
+## 100 - Which Markdown element is not correctly paired with its syntax?
+
+- Bold text - **bold**
+- Inline code - '''code'''
+- Heading - # Heading
+- Hyperlink - [title](https://)
+
+### Answer:
+The correct answer is:
+
+**Inline code - '''code'''**
+
+### Explanation:
+The syntax for **inline code** in Markdown is `` `code` `` (using backticks), not `'''code'''`. The other elements are correctly paired with their respective syntax:
+- **Bold text**: `**bold**`
+- **Heading**: `# Heading`
+- **Hyperlink**: `[title](https://)`
+
+## 101 - If a GitHub Discussion is converted into an Issue and the issue is closed or referred to using its corresponding # number, will the discussion be modified?
+
+**No**
+
+### Explanation:
+When a **GitHub Discussion** is converted into an **Issue**, the original discussion remains unchanged. Closing the issue or referring to it using its corresponding number does not modify the original discussion. Both discussions and issues maintain their independent states, even if one is derived from the other.
+
+
+## 102 - Which information can be found in the Pulse section in the Insights tab of a repository? (Choose four)
+
+1. **List of unresolved conversations**
+2. **Pull requests open/merged ratio**
+3. **Summary of repository activity**
+4. **Amount of code line additions and deletions**
+
+### Explanation:
+The **Pulse** section in the **Insights** tab of a repository provides various metrics and summaries related to the repository's activity, including:
+- A **list of unresolved conversations** that are pending review or response.
+- The **pull requests open/merged ratio**, showing the status of pull requests.
+- A **summary of repository activity**, highlighting recent contributions and interactions.
+- The **amount of code line additions and deletions**, giving insight into changes made over a specified time period.
+
+The **list of issue discussions** and the **amount of forks of the repo** are not typically found in the Pulse section.
+
+
+## 103 - In GitHub, a proposal to merge a set of changes from one branch into another branch is called a:
+
+**Pull Request**
+
+### Explanation:
+In GitHub, a **Pull Request (PR)** is a proposal to merge changes from one branch into another. It allows team members to review the changes, discuss potential modifications, and approve or request further changes before merging them into the target branch.
+
+
+## 104 - What GitHub features allow repository contributors to work on simple code changes directly through the web browser? (Choose two.)
+
+1. **GitHub Codespaces**
+2. **github.dev editor**
+
+### Explanation:
+- **GitHub Codespaces** provides a full development environment in the cloud, allowing contributors to make code changes directly in the browser with access to all the tools they need.
+- **github.dev editor** (accessed by appending `.dev` to the repository URL) allows users to edit files in a simplified web-based editor directly in the browser, making it easy to make quick changes to the code.
+
+Other options, like GitHub Dependabot and GitHub Projects, do not provide direct code editing capabilities in the browser.
+
+
+## 105 - What is the difference between GitHub projects and GitHub projects classic?
+
+**GitHub Projects is the new GitHub experience which offers a lot of new features and improvements over the older GitHub Projects classic.**
+
+### Explanation:
+**GitHub Projects** represents a new and improved project management experience on GitHub, providing enhanced features such as better integrations with issues and pull requests, customizable workflows, and more robust visualizations. **GitHub Projects classic** refers to the previous version, which lacked many of the new functionalities and enhancements introduced in the latest iteration.
+
+## 106 - What are the different levels of GitHub organizational hierarchy? (Choose three.)
+
+1. **Enterprise level**
+2. **Organization level**
+3. **Team level**
+
+### Explanation:
+The GitHub organizational hierarchy consists of multiple levels:
+- **Enterprise level**: Represents the highest level, typically for large organizations managing multiple repositories and teams.
+- **Organization level**: A group of repositories and teams that are managed under a single organizational account.
+- **Team level**: A subset within an organization that can manage specific repositories and collaborate on projects.
+
+**Personal level** and **Pro level** are not recognized levels within the GitHub organizational hierarchy.
+
+
+## 107 - What are the different possible lifecycle phases for a GitHub Codespace?
+
+**Create, Rebuild, Stop, Delete**
+
+### Explanation:
+A **GitHub Codespace** can go through the following lifecycle phases:
+- **Create**: Initiate a new Codespace for development.
+- **Rebuild**: Recreate the Codespace environment, often to apply changes to the configuration or dependencies.
+- **Stop**: Temporarily stop the Codespace without deleting it, allowing you to resume later.
+- **Delete**: Permanently remove the Codespace from your account.
+
+These phases allow for flexible management of development environments.
+
+
+## 108 - What improvement do issue forms bring over issue templates?
+
+**Issue forms allow for users to be prompted for information when creating an issue and then have that information automatically added to the issue.**
+
+### Explanation:
+**Issue forms** provide an enhanced user experience by prompting users for specific information when they create an issue. This structured approach allows for better data collection and ensures that important details are captured, making it easier for maintainers to understand and address the issues. This is a significant improvement over traditional issue templates, which are static and do not dynamically request information.
+
+## 109 - What is the role of an organization security manager?
+
+**Security managers are organization members who can view security alerts and manage settings for code security across your organization, as well as read permissions for all repositories in the organization.**
+
+### Explanation:
+**Organization security managers** have a focused role that allows them to oversee and manage security-related settings, including the ability to view security alerts, manage security settings across repositories, and read permissions. This role is crucial for maintaining the security posture of the organization within GitHub.
+
+## 110 - What is a fork in GitHub?
+
+**A fork is a personal copy of another user's repository that lives on your account.**
+
+### Explanation:
+A **fork** in GitHub is a personal copy of someone else's repository that allows you to make changes freely without affecting the original repository. It is commonly used to propose changes or to use the repository as a starting point for your own projects. When you fork a repository, it is added to your GitHub account, and you can then work on it independently.
+
+## 111 - Which of these statements best describes a version control system?
+
+**It's a system that tracks the history of changes made to a collection of files.**
+
+### Explanation:
+A **version control system** (VCS) is designed to track changes to files over time, allowing multiple contributors to work on a project collaboratively. It maintains a history of modifications, enabling users to revert to previous versions if necessary, compare changes, and manage conflicts among contributions. While it often uses tools like Git, the defining characteristic is the ability to track changes.
+
+## 112 - Which GitHub pricing plan offers self-hosted deployment of GitHub?
+
+- Pro
+- Enterprise
+- None of them
+- Free
+- All of them
+- Team
+
+### Answer:
+The correct answer is:
+
+**Enterprise**
+
+### Explanation:
+The **Enterprise** plan is the only GitHub pricing plan that offers **self-hosted deployment** of GitHub through GitHub Enterprise Server. This allows organizations to host GitHub on their own infrastructure for greater control over their data and workflows. Other plans like Pro, Free, and Team do not include self-hosted options.
+
+
+## 113 - Which of these can make a repository more discoverable? (Choose three.)
+
+1. **Setting up topics for the repository**
+2. **A well-crafted collection of markdown documents like README.md, CONTRIBUTING.md and others.**
+3. **Giving the repository a descriptive name**
+
+### Explanation:
+- **Setting up topics** helps categorize the repository, making it easier for users to find it when searching for specific subjects.
+- A **well-crafted collection of markdown documents** provides important context, guidance, and information about the repository, enhancing its attractiveness and usability.
+- Giving the repository a **descriptive name** makes it clear what the repository is about, improving its discoverability through search engines and within GitHub itself.
+
+While the other options contribute to the quality and functionality of the codebase, they do not directly enhance discoverability.
+
+
+## 114 - What are the different GitHub pricing plans for organization accounts? (Select three.)
+
+- Advanced
+- Enterprise
+- Team
+- Business
+- Personal
+- Free
+- Pro
+
+### Answer:
+The correct answers are:
+
+1. **Enterprise**
+2. **Team**
+3. **Business**
+
+### Explanation:
+For **organization accounts**, the available GitHub pricing plans include:
+- **Enterprise**: Offers advanced features and control for large organizations.
+- **Team**: Designed for small to medium-sized teams with collaborative tools.
+- **Business**: A plan that includes features for managing multiple organization accounts and enhancing collaboration.
+
+The **Personal**, **Free**, and **Pro** plans are primarily for individual users rather than organizations.
+
+
+## 115 - What is the purpose of a CODEOWNERS file?
+
+**The CODEOWNERS file allows you to define individuals or teams that are responsible for specific areas of the codebase or its entirety.**
+
+### Explanation:
+The **CODEOWNERS** file is used in GitHub repositories to specify which individuals or teams are responsible for different parts of the codebase. When changes are made to those areas, the specified code owners will automatically be requested for review, ensuring that the appropriate parties are involved in the review process.
+
+
+## 116 - What are the possible statuses for a pull request review? (Choose three.)
+
+1. **Approve**
+2. **Comment**
+3. **Request Changes**
+
+### Explanation:
+When reviewing a pull request on GitHub, the possible statuses for a review include:
+- **Approve**: Indicates that the reviewer approves the changes made in the pull request.
+- **Comment**: Allows the reviewer to leave comments without approving or requesting changes.
+- **Request Changes**: Indicates that the reviewer has identified issues that need to be addressed before the pull request can be merged.
+
+"**Deny**," "**Applaud**," and "**Close**" are not recognized statuses for a pull request review.
 
 
 
@@ -592,6 +1150,160 @@ GitHub provides **two-way synchronization** between GitHub Projects and associat
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
